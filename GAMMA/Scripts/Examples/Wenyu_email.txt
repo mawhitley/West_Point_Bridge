@@ -1,0 +1,21 @@
+Hey Franz
+
+Please find attached scripts for S1 data processing. I think these are all the scripts needed. In case there are any files missing. Please let me know. 
+
+To run the data, place these scripts in the environment/current path, and *.zip  sentinel files in the current directory. Edit parameters in the first 25 lines of S1_SLC2IFGgeo.sh. 
+
+They are master-slave date, start-end subburst number of master and start-end subburst number of slave. In case you want to exclude any swath, place start-end number as 0 to the corresponding swath.  
+
+If your sentinel data is acquired after 2015, I believe, no iteration for co-registration is needed. So set it=1 in line 28. 
+
+If you wanna run the iterative co-registration,  please let parameter it= 2,3,4,5... and uncomment line 53. 
+Please let me know if you encounter any problems. 
+
+
+Cheers.  Hope all is well ! 
+
+I hope that proposal will never be selected, I hate that topic and only finished it because it is a mandatory task..
+
+
+Wenyu 
+
