@@ -22,7 +22,7 @@ sw3b1s=0 #3
 sw3b2s=0 #9
 
 dempath=/
-demname=VA_STRM_1sec_mosaic
+demname=VA_STRM_1sec_mosaic 
 mlr=10
 mla=2
 it=1
