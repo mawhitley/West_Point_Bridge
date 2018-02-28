@@ -1,31 +1,31 @@
 # processing in the folder where zip, slcs,ifg folder are
-m=20170803
-s=20170815 
+m=20170110
+s=20170122 
 ifg=${m}_${s}
-sw1b1m=5 #0
-sw1b2m=9 #0
+sw1b1m=0
+sw1b2m=0
 
-sw2b1m=5 #1
-sw2b2m=9 #7
+sw2b1m=1
+sw2b2m=9
 
 sw3b1m=0 #1
 sw3b2m=0 #7
 
 
-sw1b1s=5 #0
-sw1b2s=9 #0
+sw1b1s=0
+sw1b2s=0
 
-sw2b1s=5 #1
-sw2b2s=9 #7 
+sw2b1s=1
+sw2b2s=9 
 
 sw3b1s=0 #3
 sw3b2s=0 #9
 
-dempath=/Proj/s1_jinghe/DEM/
-demname=Jinghe.filled
+dempath=/
+demname=VA_STRM_1sec_mosaic
 mlr=10
 mla=2
-it=3
+it=1
  
 wrkdir=`pwd`
 
